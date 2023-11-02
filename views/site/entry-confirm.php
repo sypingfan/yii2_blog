@@ -1,0 +1,19 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: 平凡
+ * Date: 2023/11/2
+ * Time: 22:00
+ */
+
+use yii\helpers\Html;
+?>
+<p>You have entered the following information;</p>
+<ul>
+    <li>
+        <label>Name</label>: <?= Html::encode($model->name) ?>
+    </li>
+    <li>
+        <label>Email</label>: <?= Html::encode($model->email) ?>
+    </li>
+</ul>
